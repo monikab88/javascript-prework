@@ -1,12 +1,12 @@
 function getMoveName(argMoveId){
 	if(argMoveId == 1){
-	  printMessage('Moj ruch to ' + argMoveId + '.');
+	  printMessage('Moj ruch to ' + argMoveId);
 	  return 'kamień';}
 	else if (argMoveId == '2'){
-	  printMessage('Mój ruch to: ' + argMoveId + '.');
+	  printMessage('Mój ruch to: ' + argMoveId);
 	  return 'papier';}
 	else {
-      printMessage('Mój ruch to: ' + argMoveId + '.');
+      printMessage('Mój ruch to: ' + argMoveId);
       return 'nożyce';}
 }
 let randomNumber = Math.floor(Math.random() * 3 + 1);
