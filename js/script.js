@@ -48,6 +48,7 @@ printMessage('Twój ruch to: ' + playerMove);
 printMessage('Twój ruch to: ' + playerMove);
 }
 */ 
+console.log('moves:', argComputerMove, argPlayerMove);
 
 function displayResult(argComputerMove, argPlayerMove){
 	printMessage('Zagrałem ' + argComputerMove + ', a Ty ' + argPlayerMove);
