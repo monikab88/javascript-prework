@@ -47,3 +47,4 @@ function displayResult(argComputerMove, argPlayerMove){
 			printMessage('Ty wygrywasz!');
 		  }
   }
+  printMessage('Zagrałem ' + argComputerMove + ', a Ty ' + argPlayerMove);
