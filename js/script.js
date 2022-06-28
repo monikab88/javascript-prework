@@ -47,4 +47,4 @@ function displayResult(argComputerMove, argPlayerMove){
 			printMessage('Ty wygrywasz!');
 		  }
   }
-let (argComputerMove, argPlayerMove) = displayResult;
+let (argComputerMove, argPlayerMove) = displayResult (printMessage);
