@@ -12,13 +12,13 @@ let randomNumber = Math.floor(Math.random() * 3 + 1);
 
 console.log('Wylosowana liczba to: ' + randomNumber);
 
-let computerMove = getMoveName(randomNumber);
+let ComputerMove = getMoveName(randomNumber);
 
 let playerInput = prompt('Wybierz swój ruch! 1: kamień, 2: papier, 3: nożyce.');
 
 console.log('Gracz wpisał: ' + playerInput);
 
-let playerMove = getMoveName(playerInput);
+let PlayerMove = getMoveName(playerInput);
 
 console.log('moves:', ComputerMove, PlayerMove);
 
@@ -37,9 +37,9 @@ function displayResult(ComputerMove, PlayerMove){
 		printMessage('Remis');
 	} else if( ComputerMove == 'papier' && PlayerMove == 'nożyce'){
 		printMessage('Ty wygrywasz!');
-	} else if( argComputerMove == 'papier' && argPlayerMove == 'kamień'){
+	} else if( ComputerMove == 'papier' && PlayerMove == 'kamień'){
 		printMessage('Ja wygrywam!');
-	} else if( argComputerMove == 'nożyce' && argPlayerMove == 'papier'){
+	} else if( ComputerMove == 'nożyce' && PlayerMove == 'papier'){
 		printMessage('Ja wygrywam!');
 	} else if( ComputerMove == 'nożyce' && PlayerMove == 'nożyce'){
 			printMessage('Remis');
