@@ -1,7 +1,7 @@
 function getMoveName(ComputerMove){
 	if(ComputerMove == 1){
 	  return 'kamień';}
-	else if (ComputerMove == '2'){
+	else if (ComputerMove == 2){
 		printMessage('Mój ruch to: ' + ComputerMove);
 	  return 'papier';}
 	else {
@@ -25,7 +25,7 @@ console.log('moves:', ComputerMove, PlayerMove);
 function displayResult(ComputerMove, PlayerMove){
 	printMessage('Zagrałem ' + ComputerMove + ', a Ty ' + PlayerMove);
   
-	if( computerMove == 'kamień' && PlayerMove == 'papier'){
+	if( ComputerMove == 'kamień' && PlayerMove == 'papier'){
 	  printMessage('Ty wygrywasz!');
 	} else if (ComputerMove == 'kamień' && PlayerMove == 'nożyce') {
 	  printMessage('Tym razem przegrywasz :(');
@@ -48,4 +48,4 @@ function displayResult(ComputerMove, PlayerMove){
 		  }
   }
 
-displayResult (ComputerMove,PlayerMove)
+displayResult (ComputerMove,PlayerMove);
