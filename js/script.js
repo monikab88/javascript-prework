@@ -25,7 +25,7 @@ let PlayerMove = getMoveName(playerInput);
 
 console.log('moves:', ComputerMove, PlayerMove);
 
-function displayResult(ComputerMove, PlayerMove){
+let displayResult = function (ComputerMove, PlayerMove){
 	printMessage('Zagrałem ' + ComputerMove + ', a Ty ' + PlayerMove);
   
 	if( ComputerMove == 'kamień' && PlayerMove == 'papier'){
@@ -50,6 +50,5 @@ function displayResult(ComputerMove, PlayerMove){
 			printMessage('Ty wygrywasz!');
 		  }
   }
-
 displayResult (ComputerMove,PlayerMove);
 }
