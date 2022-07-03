@@ -1,4 +1,5 @@
-function getMoveName(ComputerMove){
+{
+	function getMoveName(ComputerMove){
 	if(ComputerMove == 1){
 	  return 'kamień';}
 	else if (ComputerMove == 2){
@@ -8,11 +9,13 @@ function getMoveName(ComputerMove){
       printMessage('Mój ruch to: ' + ComputerMove);
       return 'nożyce';}
 }
+printMessage(ComputerMove);
 let randomNumber = Math.floor(Math.random() * 3 + 1);
 
 console.log('Wylosowana liczba to: ' + randomNumber);
 
 let ComputerMove = getMoveName(randomNumber);
+
 
 let playerInput = prompt('Wybierz swój ruch! 1: kamień, 2: papier, 3: nożyce.');
 
@@ -49,3 +52,4 @@ function displayResult(ComputerMove, PlayerMove){
   }
 
 displayResult (ComputerMove,PlayerMove);
+}
