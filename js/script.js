@@ -1,5 +1,5 @@
 {
-	function getMoveName(ComputerMove){
+	let getMoveName = function (ComputerMove){
 	if(ComputerMove == 1){
 	  return 'kamień';}
 	else if (ComputerMove == 2){
