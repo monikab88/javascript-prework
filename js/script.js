@@ -9,7 +9,7 @@
       printMessage('Mój ruch to: ' + ComputerMove);
       return 'nożyce';}
 }
-printMessage(ComputerMove);
+
 let randomNumber = Math.floor(Math.random() * 3 + 1);
 
 console.log('Wylosowana liczba to: ' + randomNumber);
