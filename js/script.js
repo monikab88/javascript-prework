@@ -1,4 +1,6 @@
 function playGame(playerInput) {
+	clearMessages ()
+
 	
 	let getMoveName = function (ComputerMove){
 		if(ComputerMove == 1){
@@ -52,4 +54,4 @@ function playGame(playerInput) {
   	}
 		displayResult (ComputerMove,PlayerMove);
 }
-playGame(3)
+clearMessages
