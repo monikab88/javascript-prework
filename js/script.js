@@ -66,6 +66,6 @@ function playGame(playerInput) {
   		printMessage('Wybrałeś nożyce');
 	});
 
-
+	console.log('Gracz wybrał: ' + playerInput);
 
 }
