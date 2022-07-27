@@ -55,15 +55,15 @@ function playGame(playerInput) {
 		displayResult (ComputerMove,PlayerMove);
 
 	document.getElementById('play-rock').addEventListener('click', function(){
-		playGame(playerInput, 'Wybrałeś kamień');
+		playGame(1);
 	});
 
 	document.getElementById('play-paper').addEventListener('click', function(){
-		playGame(playerInput,'Wybrałeś papier');
+		playGame(2);
 	});
 
 	document.getElementById('play-scissors').addEventListener('click', function(){
-		playGame(playerInput,'Wybrałeś nożyce');
+		playGame(2);
 	});
 	
 	console.log('Gracz wybrał: ' + playerInput);
