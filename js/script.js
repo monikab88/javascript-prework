@@ -55,17 +55,17 @@ function playGame(playerInput) {
 		displayResult (ComputerMove,PlayerMove);
 
 	document.getElementById('play-rock').addEventListener('click', function(){
-		printMessage('Wybrałeś kamień');
+		playGame(playerInput, 'Wybrałeś kamień');
 	});
 
 	document.getElementById('play-paper').addEventListener('click', function(){
-		printMessage('Wybrałeś papier');
+		playGame(playerInput,'Wybrałeś papier');
 	});
 
 	document.getElementById('play-scissors').addEventListener('click', function(){
-  		printMessage('Wybrałeś nożyce');
+		playGame(playerInput,'Wybrałeś nożyce');
 	});
-
+	
 	console.log('Gracz wybrał: ' + playerInput);
 
 }
