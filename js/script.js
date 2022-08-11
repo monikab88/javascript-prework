@@ -53,7 +53,7 @@ function playGame(playerInput) {
 		  }
   	}
 		displayResult (ComputerMove,PlayerMove);
-
+}
 	document.getElementById('play-rock').addEventListener('click', function(){
 		playGame(1);
 	});
@@ -68,4 +68,3 @@ function playGame(playerInput) {
 	
 	console.log('Gracz wybrał: ' + playerInput);
 
-}
