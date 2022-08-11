@@ -63,7 +63,7 @@ function playGame(playerInput) {
 	});
 
 	document.getElementById('play-scissors').addEventListener('click', function(){
-		playGame(2);
+		playGame(3);
 	});
 	
 	console.log('Gracz wybrał: ' + playerInput);
